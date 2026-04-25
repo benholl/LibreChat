@@ -22,10 +22,6 @@ endpoints:
       titleModel: "openrouter/auto"
       dropParams: ['stop']
       modelDisplayLabel: "OpenRouter"
-# Add web search
-      addParams:
-        tools:
-          - type: "openrouter:web_search"
 
 mcpServers:
   homeassistant:
