@@ -26,3 +26,10 @@ endpoints:
       titleConversation: true
       titleModel: "openrouter/auto"
       modelDisplayLabel: "OpenRouter"
+
+mcpServers:
+  homeassistant:
+    type: sse
+    url: "${HASS_URL}/api/mcp/sse"
+    headers:
+      Authorization: "Bearer ${HASS_TOKEN}"
