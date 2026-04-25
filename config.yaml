@@ -23,6 +23,18 @@ endpoints:
       dropParams: ['stop']
       modelDisplayLabel: "OpenRouter"
 
+memory:
+  disabled: false  # Set to true to completely disable memory
+  personalize: true  # Gives users the ability to toggle memory on/off, true by default
+  tokenLimit: 2000  # Maximum tokens for memory storage
+  messageWindowSize: 5  # Number of recent messages to consider
+  agent:
+    provider: "OpenRouter"
+    model: "google/gemini-3-pro-preview"
+    instructions: "Remember only explicitly stated preferences and key facts."
+    model_parameters:
+      temperature: 0.3
+
 mcpServers:
   homeassistant:
     type: streamable-http
