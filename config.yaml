@@ -6,13 +6,9 @@ endpoints:
     disabled: true
   assistants:
     disabled: true
-  azureOpenAI:
-    disabled: true
   google:
     disabled: true
   anthropic:
-    disabled: true
-  gptPlugins:
     disabled: true
   custom:
     - name: "OpenRouter"
