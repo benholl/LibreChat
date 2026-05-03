@@ -29,11 +29,7 @@ memory:
   tokenLimit: 2000  # Maximum tokens for memory storage
   messageWindowSize: 5  # Number of recent messages to consider
   agent:
-    provider: "OpenRouter"
-    model: "google/gemini-3-pro-preview"
-    instructions: "Remember only explicitly stated preferences and key facts."
-    model_parameters:
-      temperature: 0.3
+    id: "agent_dTldmd9xi2VErAukhceRH"
 
 mcpServers:
   homeassistant:
