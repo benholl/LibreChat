@@ -29,7 +29,7 @@ memory:
   tokenLimit: 2000  # Maximum tokens for memory storage
   messageWindowSize: 5  # Number of recent messages to consider
   agent:
-    id: "agent_dTldmd9xi2VErAukhceRH"
+    id: "agent_IMNJDCNUE5pqNWsLuKWnV"
 
 mcpServers:
   homeassistant:
